@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>
+      1. Escreva um programa que solicita ao usuário que digite um número. O
+      programa deve continuar solicitando um número até que o usuário digite um
+      número par.
+    </h4>
+    <p>
+      let number; do { number = prompt("Digite um número qualquer:"); } while
+      (number % 2 == 1);
+    </p>
+    <h4>
+      2. Escreva um programa que solicita ao usuário que adivinhe um número
+      entre 1 e 100. O programa deve informar se o número digitado é maior ou
+      menor que o número a ser adivinhado. O programa deve continuar pedindo ao
+      usuário para adivinhar até que ele acerte o número.
+    </h4>
+    <p>
+      let guess; let magicNumber = Math.floor(Math.random() * 100) + 1; do {
+      guess = Number(prompt("Adivinhe o número entre 1 e 100: ")); if (guess <
+      magicNumber) { alert("O número a ser adivinhado é maior do que o
+      informado."); } else if (guess > magicNumber) { alert("O número a ser
+      adivinhado é menor do que o informado."); } else { alert("Parabéns, você
+      adivinhou o número"); break; } } while (guess !== magicNumber);
+    </p>
+    <h4>
+      3. Escreva um programa que solicita ao usuário que digite uma senha. O
+      programa deve continuar solicitando uma senha até que o usuário digite a
+      senha correta.
+    </h4>
+    <p>
+      let password = 12345; let digiteSenha; do { digiteSenha =
+      Number(prompt("Digite a sua senha: ")); if (password === digiteSenha) {
+      alert("Senha correta! Acesso liberado."); } else { alert("Senha incorreta.
+      Tente novamente!"); } } while (digiteSenha !== password);
+    </p>
+    <h4>
+      4. Escreva um programa que solicita ao usuário que digite uma palavra. O
+      programa deve continuar solicitando uma palavra até que o usuário digite
+      uma palavra que comece com a letra "A".
+    </h4>
+    <p>
+      let digitePalavra; do { digitePalavra = prompt("Digite uma palavra: "); }
+      while (digitePalavra[0] !== "A");
+    </p>
+    <h4>
+      5. Escreva um programa que solicita ao usuário que digite um número. O
+      programa deve continuar solicitando um número até que o usuário digite um
+      número entre 1 e 10.
+    </h4>
+    <script src="./exercicios-do-while.js"></script>
+  </body>
+</html>

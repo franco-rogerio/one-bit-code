@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h4>1. Crie um loop for que imprima os números de 1 a 10 no console.</h4>
+    <p>
+      let numero = ""; for (let i = 1; i <= 10; i += 1){ numero += i + "\n"; }
+      alert(numero);
+    </p>
+    <h4>
+      2. Crie um loop for que imprima os números pares de 1 a 20 no console.
+    </h4>
+    <p>
+      let counting = ""; for (let i = 1; i <= 20; i += 1) { <br />
+      if (i % 2 === 0) { <br />
+      counting = i; <br />
+      console.log(counting); <br />
+      } } <br />
+      <br />
+
+      // OUUUU <br />
+      <br />
+
+      // for (let i = 2; i <= 20; i += 2) { // console.log(i); // }
+    </p>
+    <h4>
+      3. Crie um loop for que imprima os números ímpares de 10 a 30 no console.
+    </h4>
+    <p>for (let i = 11; i <= 30; i += 2) { console.log(i); }</p>
+    <h4>
+      4. Crie um loop for que calcule a soma dos números de 1 a 100 e imprima o
+      resultado no console.
+    </h4>
+    <p>
+      let resultado = 0; for (let i = 1; i <= 100; i += 1) { resultado =
+      resultado + i; } console.log(resultado);
+    </p>
+    <h4>5. Crie um loop for que imprima as letras de A a Z no console.</h4>
+    <p>
+      for (let i = 65; i <= 90; i += 1) { console.log(String.fromCharCode(i)); }
+    </p>
+    <h4>
+      6. Crie um loop for que imprima os números de 10 a 0 (em ordem
+      decrescente) no console.
+    </h4>
+    <p>for (let i = 10; i >= 0; i -= 1) { console.log(i); }</p>
+    <h4>7. Crie um loop for que imprima a tabuada do número 5 no console.</h4>
+    <p>
+      const multiplier = 5;<br />
+      let resultado = "";<br />
+      for (let i = 1; i <= 10; i += 1) { resultado = multiplier * i;
+      console.log(resultado); }
+
+      <br /><br />// // OUUUU<br /><br />
+
+      for (let i = 1; i <= 10; i++) { console.log(`${i} x 5 = ${i * 5}`); }
+    </p>
+    <h4>
+      8. Crie um loop for que verifique se um número é primo ou não. Imprima o
+      resultado no console.
+    </h4>
+    <h4>
+      9. Crie um loop for que imprima os valores de um array de números no
+      console.
+    </h4>
+    <p>
+      let numeros = [2, 4, 3]; for (let i = 0; i < numeros.length; i += 1) {
+      console.log(numeros[i]); }
+    </p>
+    <h4>
+      10. Crie um loop for que some os valores de um array de números e imprima
+      o resultado no console.
+    </h4>
+    <p>
+      let numeros = [2, 2, 3, 5, 6]; let soma = 0; for (let i = 0; i <
+      numeros.length; i += 1) { soma = numeros[i] + soma; } console.log(soma);
+    </p>
+    <script src="./exercicios-for.js"></script>
+  </body>
+</html>

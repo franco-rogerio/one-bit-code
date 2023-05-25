@@ -1,0 +1,106 @@
+<!-- <html>
+  <head> </head>
+  <body>
+     
+    <h3>Encontre no Google</h3>
+     
+    <form action="https://www.google.com/search" method="get">
+          <label for="query">O que deseja pesquisar?</label>    
+      <input
+        id="query"
+        type="text"
+        name="q"
+        placeholder="Nasa, Space"
+        required
+      />
+
+          <input type="submit" value="Pesquisar" />  
+    </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de inscrição</title>
+  </head>
+
+  <body>
+    <header><h2>Formulário de Inscrição para Bodybuilder</h2></header>
+
+    <form action="">
+      <div>
+        <label for="nameAndLastName">Nome completo:</label>
+        <input type="text" id="nameAndLastName" name="nameAndLastName" /><br />
+      </div>
+      <br />
+      <div>
+        <label for="dateOfBirth">Data de Nascimeto: </label>
+        <input type="date" name="dateOfBirth" id="dateOfBirth" />
+      </div>
+      <br />
+      <div>
+        <label for="address">Endereço:</label>
+        <input type="text" id="address" name="address" /><br />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" id="email" />
+
+        <label for="pwd">Senha:</label>
+        <input type="password" id="pwd" /><br />
+      </div>
+      <br />
+      <div>
+        <label for="profilePicture">Adicionar foto no Perfil:</label>
+        <input type="file" name="profilePicture" id="profilePicture" multiple
+      </div>
+      <br />
+      <br />
+      <div>
+        <label for="nationality">Nacionalidade:</label>
+        <select name="nationality" id="nationality">
+          <option value="russian">Russo</option>
+          <option value="brazilian">Brasileiro</option>
+          <option value="american">Americano</option>
+          <option value="english">Inglês</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        Gênero:
+        <input type="radio" name="Masculino" id="gender" />
+        <label for="gender">Masculino</label>
+        <input type="radio" name="Feminino" id="gender" />
+        <label for="gender">Feminino</label><br />
+      </div>
+
+      <div>
+        <p>Suas principais qualidades:</p>
+        <label for="muscled">Musculoso</label>
+        <input type="checkbox" name="muscled" id="muscled" />
+        <label for="resistent">Resistente</label>
+        <input type="checkbox" name="resistent" id="resistent" />
+        <br />
+      </div>
+
+      <div>
+        <textarea
+          name="description"
+          id="description"
+          placeholder="Conte-nos sobre você!"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <br />
+      <div>
+        <input type="submit" value="Criar" />
+      </div>
+    </form>
+  </body>
+</html>
